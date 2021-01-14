@@ -1,4 +1,4 @@
-create table tb_funcionarios(
+create table tb_func(
 	id bigint auto_increment,
     nome varchar(255) not null,
     cpf int not null,
@@ -6,4 +6,8 @@ create table tb_funcionarios(
     salario decimal not null,
     primary key (id)
 );
+
+select * from tb_func
+
+
 
