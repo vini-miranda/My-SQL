@@ -1,0 +1,1 @@
+select * from tbl_funcionarios where salario < 2.000
